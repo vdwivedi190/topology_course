@@ -1,2 +1,5 @@
-# topology_course
-Tutorials for a course on Topological Phases of Matter that I taught at University of Cologne in Summer 2020. 
+# Topological phases of matter
+
+This reposity contains the tutorials for a master's course on Topological Phases of Matter that I taught at University of Cologne in Summer 2020 (available online [here](https://sites.google.com/view/vdwivedi/teaching)). These tutorials are intended to walk through exact diagonalization of tight-binding Hamiltonians describing noninteracting fermionic topological phases of matter and the computation of common topological invariants such as polarization in one-dimension and Chern number in two dimensions. They also discuss the computation of _inverse participation ratio_ which quantifies the localization/delocalization of eigenstates and apply it to Anderson-disordered topological insulators in one dimension. 
+
+The tutorials consist of Jupyter notebooks written in Julia and require the `LinearAlgebra` and `Plots` package. The folder `tutorials` consists of the notebooks with a description of the tasks and partial code, while the `solutions` folder contains notebooks with completed code. While the background of the tasks is described in substantial detail in notebooks themselves, they were intended to be supplemented by the lecture notes available on the [course website](https://sites.google.com/view/vdwivedi/teaching). 
